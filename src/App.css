@@ -1,8 +1,25 @@
 h2 {
   text-align: center;
+  color: white;
 }
 h3 {
   text-align: center;
+}
+.mb-4 {
+  align-items: center;
+}
+
+body {
+  background-image: url("https://imageio.forbes.com/blogs-images/rainerzitelmann/files/2019/05/GettyImages-481406443-1200x1785.jpg?height=1057&width=711&fit=bounds");
+}
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-list li {
+  margin-bottom: 10px; /* Adjust the spacing between links */
 }
 
 .RecordCardioListContainer {
@@ -66,13 +83,6 @@ h3 {
   text-align: center;
   padding: 8px;
   border: 1px solid #ddd;
-}
-
-.createButton {
-  background-color: green;
-  color: white;
-  padding: 1px;
-  margin-bottom: 20px;
 }
 
 .App {
