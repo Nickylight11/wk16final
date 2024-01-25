@@ -8,7 +8,16 @@ h3 {
 
 body {
   background-image: url("https://imageio.forbes.com/blogs-images/rainerzitelmann/files/2019/05/GettyImages-481406443-1200x1785.jpg?height=1057&width=711&fit=bounds");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center top;
 }
+
+.navbar {
+  min-height: 80px;
+  font-size: x-large;
+}
+
 .navbar-list {
   list-style: none;
   padding: 0;
